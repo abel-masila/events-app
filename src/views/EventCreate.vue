@@ -10,14 +10,12 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapState, mapGetters } from 'vuex'
 
 export default {
   computed: {
     ...mapState(['user', 'categories']),
-    catLength() {
-      return this.$store.getters.catLength
-    }
+    ...mapGetters(['catLength'])
   }
 }
 </script>
