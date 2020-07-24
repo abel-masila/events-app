@@ -52,10 +52,15 @@ export default new Vuex.Store({
 
         .catch(e => console.log(e))
     },
-    fetchEvent({ commit }, id) {
-      EventService.getEvent(id)
-        .then(res => commit('SET_EVENT', res.data))
-        .catch(e => console.log(e))
+    fetchEvent({ commit, getters }, id) {
+      let event = getters.getEventById(id)
+      if (event) {
+        commit('SET_EVENT', event)
+      } else {
+        EventService.getEvent(id)
+          .then(res => commit('SET_EVENT', res.data))
+          .catch(e => console.log(e))
+      }
     }
   },
   modules: {},
