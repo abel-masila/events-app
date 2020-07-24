@@ -50,7 +50,7 @@ export const actions = {
       .catch(e => {
         const notification = {
           type: 'error',
-          message: 'There was a problem fetching events' + e.message
+          message: 'There was a problem fetching events' + ' ' + e.message
         }
         dispatch('notification/add', notification, { root: true })
       })
