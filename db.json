@@ -71,6 +71,42 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 3776250,
+      "category": "nature",
+      "organizer": {
+        "id": 1,
+        "name": "masila"
+      },
+      "title": "Test Event",
+      "description": "tets test",
+      "location": "Nairobi",
+      "date": "2020-07-25T12:06:00.000Z",
+      "time": "2:00",
+      "attendees": []
+    },
+    {
+      "id": 5178117,
+      "category": "animal welfare",
+      "organizer": "masila",
+      "title": "twst",
+      "description": "tewt",
+      "location": "nt",
+      "date": "2020-07-02T12:08:00.000Z",
+      "time": "3:00",
+      "attendees": []
+    },
+    {
+      "id": 3740230,
+      "category": "nature",
+      "organizer": "masila",
+      "title": "plant trees",
+      "description": "plant for better tommorrow",
+      "location": "Forest",
+      "date": "2020-07-24T12:12:00.000Z",
+      "time": "4:00",
+      "attendees": []
     }
   ]
 }
