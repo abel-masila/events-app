@@ -231,6 +231,17 @@
       "date": "",
       "time": "5:00",
       "attendees": []
+    },
+    {
+      "id": 2070512,
+      "category": "housing",
+      "organizer": "Abel",
+      "title": "Get new house",
+      "description": "Go house hunting again",
+      "location": "Nairobi",
+      "date": "2020-07-31T13:18:00.000Z",
+      "time": "21:00",
+      "attendees": []
     }
   ]
 }
