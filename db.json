@@ -297,6 +297,17 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 5703157,
+      "category": "animal welfare",
+      "organizer": "Abel",
+      "title": "R=Ye",
+      "description": "Tets",
+      "location": "awsas",
+      "date": "2020-08-05T15:29:00.000Z",
+      "time": "3:00",
+      "attendees": []
     }
   ]
 }
