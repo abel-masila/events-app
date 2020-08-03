@@ -59,9 +59,13 @@ export const actions = {
     let event = getters.getEventById(id)
     if (event) {
       commit('SET_EVENT', event)
+      return event
     } else {
       return EventService.getEvent(id)
-        .then(res => commit('SET_EVENT', res.data))
+        .then(res => {
+          commit('SET_EVENT', res.data)
+          return res.data
+        })
         .catch(e => {
           const notification = {
             type: 'error',
