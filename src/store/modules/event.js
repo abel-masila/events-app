@@ -60,7 +60,7 @@ export const actions = {
     if (event) {
       commit('SET_EVENT', event)
     } else {
-      EventService.getEvent(id)
+      return EventService.getEvent(id)
         .then(res => commit('SET_EVENT', res.data))
         .catch(e => {
           const notification = {
