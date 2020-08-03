@@ -4,6 +4,7 @@ import Nprogress from 'nprogress'
 import EventList from '../views/EventList.vue'
 import EventShow from '../views/EventShow.vue'
 import EventCreate from '../views/EventCreate.vue'
+import Example from '../views/Example.vue'
 import NotFound from '../components/NotFound.vue'
 import NetworkIssue from '../components/NetworkIssue.vue'
 import store from '@/store'
@@ -49,6 +50,11 @@ const routes = [
     name: '404',
     component: NotFound,
     props: true
+  },
+  {
+    path: '/example',
+    name: 'example',
+    component: Example
   },
   {
     path: '/network-issue',
