@@ -275,6 +275,17 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 8411949,
+      "category": "animal welfare",
+      "organizer": "Abel",
+      "title": "test",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }

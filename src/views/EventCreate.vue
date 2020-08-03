@@ -28,7 +28,8 @@
       </div>
       <BaseSelect label="Select a time" :options="times" v-model="event.time" />
 
-      <input type="submit" class="button -fill-gradient" value="Submit" />
+      <!-- <input type="submit" class="button -fill-gradient" value="Submit" /> -->
+      <BaseButton type="submit" buttonClass="-fill-gradient">Submit</BaseButton>
     </form>
   </div>
 </template>
